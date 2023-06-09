@@ -11,7 +11,7 @@ This guide shows how to achieve equivalent flows with the new version of the CLI
 |`theme deploy`|`shopify theme push`| Deploy a local (to the CLI) version of the Theme in the current working directory to a remote store.|
 |`theme new`|`shopify theme init`| Scaffold a new theme. In the case of the CLI it clones Dawn to be used as a reference Theme. Alternatively, it's possible to simply clone Dawn `git clone git@github.com:Shopify/dawn.git` and use it with the CLI.
 |`theme download`|`shopify theme pull`| Download your remote theme files.|
-|`theme watch` & `theme open` | `shopify theme serve` | Start a theme server to locally preview changes with CSS & Section hot reload enabled|
+|`theme watch` & `theme open` | `shopify theme dev` | Start a theme server to locally preview changes with CSS & Section hot reload enabled|
 |-| `shopify theme check`| Run the Theme Check linter on your theme codebase.|
 |-|`shopify theme publish`| Set a remote theme as the live theme.|
 |-|`shopify theme package`|Pack your Theme as a zip file ready for distribution and submission to the Theme Store.|
